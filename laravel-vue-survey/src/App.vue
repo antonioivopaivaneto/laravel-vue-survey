@@ -15,7 +15,7 @@ export default{
 
 <template>
 
-  <HelloWorld  />
+<router-view></router-view>
 
 </template>
 
