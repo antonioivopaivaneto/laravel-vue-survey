@@ -1,10 +1,14 @@
 <template>
-  <h1>Dashbord</h1>
+
+<PageComponent title="Dashboard">Content goes here</PageComponent>
+
 </template>
 
 
 <script>
+import PageComponent from '../components/PageComponent.vue';
 export default{
-  name: "Dashbord",
+    name: "Dashbord",
+    components: { PageComponent }
 }
 </script>
